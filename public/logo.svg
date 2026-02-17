@@ -1,0 +1,10 @@
+<svg width="400" height="120" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Lightning Bolt - Bright Cyan -->
+  <path d="M65 20 L35 65 H55 L48 110 L78 65 H58 L65 20 Z" fill="#3B9FE8"/>
+  
+  <!-- BOSS Text - Black -->
+  <text x="100" y="70" font-family="Arial, sans-serif" font-size="54" font-weight="900" fill="#000000" letter-spacing="-1">BOSS</text>
+  
+  <!-- ELECTRICS Text - Black -->
+  <text x="100" y="95" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#000000" letter-spacing="4">ELECTRICS</text>
+</svg>
