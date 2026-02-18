@@ -6,9 +6,8 @@ interface LogoProps {
 }
 
 export const Logo: React.FC<LogoProps> = ({ className = "", variant = "dark" }) => {
-  // New designed logo - white text + blue lightning bolt on transparent bg
-  // Works on both dark navbar and dark footer backgrounds
-  const logoSrc = "/logo-new.svg";
+  // Using the white text variant for dark backgrounds (Navbar/Footer)
+  const logoSrc = variant === "light" ? "/boss-2-white.svg" : "/boss-2.svg";
 
   return (
     <div className={`flex items-center ${className}`}>
